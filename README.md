@@ -19,7 +19,7 @@ A good use case for this script is the decomissioning of an existing aggregate.
    https://www.sysadmintutorials.com/netapp-auto-aggregate-volume-evacuation-with-powershell/<br>
    
    This script is going to vol move all volumes (excluding any root volumes) from a source aggregate to a destination aggregate.
-   Within the script please change the following:
-   a. Line 12 - Connect-NcController 192.168.1.50 -credential $netappcreds (replace 192.168.1.50 with your cluster IP or DNS name)
+   Within the script please change the following:<br>
+   a. Line 12 - Connect-NcController 192.168.1.50 -credential $netappcreds (replace 192.168.1.50 with your cluster IP or DNS name)<br>
    b. Line 32 and 35 - $evacaggr (source aggregate) and $destaggr (destination aggregate) variables.
   
